@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Donation Example",
+  "keywords": ["react", "donation"],
+  "main": "src/index.js",
+  "dependencies": {
+    "node-sass": "4.14.1",
+    "parcel-bundler": "1.12.4",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-text-mask": "5.4.3",
+    "text-mask-addons": "3.8.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
