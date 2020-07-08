@@ -1,12 +1,14 @@
-import "./styles.css";
+import "./styles.scss";
 
 import React from "react";
-import DonationForm from "./DonationForm";
+import DonationForm from "./components/DonationForm/DonationForm";
 
-export default function App() {
+export const App = () => {
   return (
     <div className="App">
       <DonationForm />
     </div>
   );
-}
+};
+
+export default App;

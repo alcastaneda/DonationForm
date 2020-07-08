@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Poppins:wght@700');
+@import 'colors';
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background: $ocean-20;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.tooltip,
+p,
+button,
+input {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+.tooltip {
+  position: relative;
+  margin: 0 auto;
+  color: $ocean-120;
+  max-width: 30rem;
+  background: $ocean-40;
+  text-align: left;
+  border-radius: 5px;
+  p {
+    padding: 10px;
+  }
+}
+
+.tooltip-text {
+  content: ' ';
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  right: 10%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: $ocean-40 transparent transparent transparent;
+}
+
+.card-wrapper {
+  background: $white;
+  max-width: 30rem;
+  margin: 0 auto;
+  box-shadow: 1px 3px 5px 1px $slate-40;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .card-content {
+    width: 25rem;
+    margin: 0 auto 1.5rem auto;
+    padding: 1rem;
+  }
+
+  p {
+    text-align: left;
+    color: $slate;
+    span {
+      color: $slate-120;
+    }
+  }
+
+  .input-container {
+    width: 14rem;
+    display: inline-block;
+    border-top: 1px solid $slate-40;
+    border-left: 1px solid $slate-40;
+    border-bottom: 1px solid $slate-40;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+
+    span {
+      position: absolute;
+      padding-top: 3px;
+      color: $slate-40;
+    }
+
+    input {
+      font-size: 1.5rem;
+      border-width: 0px;
+      border-style: none;
+      padding-left: 1rem;
+    }
+  }
+
+  button {
+    background: $mint;
+    color: $white;
+    padding: 12px;
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1.5rem;
+  }
+
+  .error-msg {
+    position: absolute;
+    left: 50%;
+    margin-left: -15rem;
+    width: 30rem;
+    color: $strawberry;
+  }
+}
+
+.prgBr {
+  position: relative;
+  height: 1rem;
+  background: $mint-40;
+}
+
+.prgBr-filler {
+  background: $mint;
+  height: 100%;
+  transition: width 0.2s ease-in;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
