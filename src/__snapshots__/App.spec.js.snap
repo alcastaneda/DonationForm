@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<div
+  class="App"
+>
+  <div
+    class="tooltip"
+  >
+    <p
+      aria-hidden="false"
+      tabindex="2"
+    >
+      <span
+        class="bold"
+      >
+        $1,250
+      </span>
+       still needed to fund this project
+    </p>
+    <span
+      class="tooltip-text"
+    />
+  </div>
+  <div
+    class="card-wrapper"
+    role="main"
+  >
+    <div
+      class="prgBr"
+    >
+      <div
+        class="prgBr-filler"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      class="card-content"
+    >
+      <h1
+        aria-hidden="false"
+        tabindex="0"
+      >
+        Only 
+        four
+         days left to fund this project
+      </h1>
+      <p
+        tabindex="0"
+      >
+        Join the 
+        <span
+          class="bold"
+        >
+          11
+        </span>
+         
+        other donors who have already supported this project.
+      </p>
+      <form
+        action="#"
+        id="js-form"
+      >
+        <div
+          class="input-container"
+        >
+          <span
+            class="bold"
+          >
+            $
+          </span>
+          <input
+            aria-label="donation amount"
+            class="bold"
+            inputmode="numeric"
+            name="amount"
+            type="text"
+            value="50"
+          />
+        </div>
+        <button
+          class="bold"
+          type="submit"
+        >
+          Give Now
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
